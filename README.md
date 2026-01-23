@@ -1,3 +1,4 @@
+```bibtex
 @INPROCEEDINGS{-KAN-SAs,
   author={Sohaib Errabii and Olivier Sentieys and Marcello Traiola},
   booktitle={2026 Design, Automation & Test in Europe Conference (DATE)}, 
@@ -6,4 +7,4 @@
   url={https://arxiv.org/abs/2512.00055%7D,
   MONTH = {Apr}
 }
-
+```
