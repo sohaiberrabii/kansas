@@ -1,0 +1,36 @@
+[project]
+name = "kansas"
+description = "Efficient Acceleration of Kolmogorov-Arnold Networks on Systolic Arrays"
+version = "0.1.0"
+authors = [
+    {name = "Sohaib Errabii", email = "sohaib.errabii@inria.fr"},
+    {name = "Olivier Sentieys"},
+    {name = "Marcello Traiola"},
+]
+
+readme = "README.md"
+keywords = ["KAN", "Kolmogorov-Arnold Networks", "systolic arrays", "hardware acceleration", "amaranth"]
+
+requires-python = ">=3.10"
+dependencies = [
+    "amaranth[builtin-yosys]",
+    "numpy",
+]
+
+[project.urls]
+Repository = "https://github.com/sohaiberrabii/kansas"
+Paper = "https://arxiv.org/abs/2512.00055"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+    "pytest",
+    "cocotb>=2.0.0",
+]
+
+[tool.ruff]
+line-length = 120
